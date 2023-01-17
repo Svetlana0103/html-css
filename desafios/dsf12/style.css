@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: black;
+    padding: 20px;
+}
+
+header > h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+header > p {
+    
+    padding-top: 20px;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+#primeiro{
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+    padding-top: 20px;
+    
+}
+
+#segundo{
+    background-image: url('imagens/background001.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#segundo > p {
+    display: inline-block;
+    background-color:rgb(10, 75, 10);
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#terceiro{
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+    padding-top: 20px;
+    
+}
