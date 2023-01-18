@@ -1,19 +1,34 @@
+@charset "UTF-8";
+
 * {
     margin: 0px;
     padding: 0px;
 }
 
+html, body {
+    background-color: darkgray;
+    min-height: 100vh;
+}
+
 a{
     text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 
-header{
+header {
     background-color: black;
     padding: 20px;
 }
 
 header > h1 {
+    font-variant: small-caps;
+    padding-top: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50px;
     text-align: center;
@@ -21,18 +36,25 @@ header > h1 {
 }
 
 header > p {
-    
+    padding-bottom: 50px;
     padding-top: 20px;
     font-size: 15px;
     text-align: center;
     color: white;
 }
 
-a:visited{
+a:visited {
     color: white;
 }
 
-#primeiro{
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+}
+
+.texto {
     font-weight: bold;
     font-size: 30px;
     padding: 10px;
@@ -40,58 +62,45 @@ a:visited{
     
 }
 
-#segundo{
+#primeira > p {
+    width: 400px;
+    padding-left: 20px;
+    margin-block: 20px 20px;
+    display: inline-block;
+    background-color:#011200;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.imagem , #primeira {
     background-image: url('imagens/background001.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
-#segundo > p {
+#segunda > p {
+    width: 400px;
     padding-left: 20px;
     margin-block: 20px 20px;
     display: inline-block;
-    background-color:#011200;
-    color: white;
-    font-weight: bold;
-    font-size: 30px;
-}
-
-#terceiro{
-    font-weight: bold;
-    font-size: 30px;
-    padding: 10px;
-    padding-top: 20px;
-    
-}
-
-#quarto > p {
-    padding-left: 20px;
-    margin-block: 20px 20px;
-    display: inline-block;
-    background-color:#011200;
+    background-color:#01120017;
     color: white;
     font-weight: bold;
     font-size: 30px;
 
 }
 
-#quarto{
+.imagem, #segunda {
     background-image: url('imagens/background002.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
-#quinto{
-    font-weight: bold;
-    font-size: 30px;
-    padding: 10px;
-    padding-top: 20px;
-    
-}
 
-footer{
+footer {
     font-size: 20px;
     background-color: black;
     color: white;
