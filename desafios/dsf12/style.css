@@ -3,6 +3,11 @@
     padding: 0px;
 }
 
+a{
+    text-decoration: none;
+}
+
+
 header{
     background-color: black;
     padding: 20px;
@@ -43,8 +48,10 @@ a:visited{
 }
 
 #segundo > p {
+    padding-left: 20px;
+    margin-block: 20px 20px;
     display: inline-block;
-    background-color:rgb(10, 75, 10);
+    background-color:#011200;
     color: white;
     font-weight: bold;
     font-size: 30px;
@@ -56,4 +63,38 @@ a:visited{
     padding: 10px;
     padding-top: 20px;
     
+}
+
+#quarto > p {
+    padding-left: 20px;
+    margin-block: 20px 20px;
+    display: inline-block;
+    background-color:#011200;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+#quarto{
+    background-image: url('imagens/background002.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#quinto{
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+    padding-top: 20px;
+    
+}
+
+footer{
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
